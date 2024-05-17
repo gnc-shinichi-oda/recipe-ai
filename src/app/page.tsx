@@ -35,7 +35,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <section className="   w-1/2  mx-auto ">
+      <section className="   w-full  mx-auto ">
         <form
           onSubmit={onSubmit}
           className=" p-4 flex flex-col items-center gap-4  max-w-full mx-auto"
@@ -50,7 +50,7 @@ export default function Home() {
           />
           <button
             type="submit"
-            className="  text-white p-2 rounded-lg bg-blue-500   w-1/2 text-xl  "
+            className="  text-white p-2 rounded-lg bg-blue-500 w-full text-xl  "
           >
             Generate
           </button>
