@@ -30,7 +30,7 @@ export default function Home() {
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
           <span className=" text-blue-600"> レシピ生成AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-          トマト, じゃがいも...などのフォーマットで材料を入力するだけで、レシピAIがオンデマンドでまったく新しいレシピを生成してくれます。
+          トマト, じゃがいも...などのフォーマットで材料を入力するだけで、レシピAI君がまったく新しいレシピを生成してくれます。
           </p>
         </h1>
       </div>
@@ -45,7 +45,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="Ingredient1, Ingredient2, Ingredient3,..etc"
+            placeholder="トマト, じゃがいも... etc"
             className="border border-black  text-gray-900 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button
