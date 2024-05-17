@@ -52,7 +52,7 @@ export default function Home() {
             type="submit"
             className="  text-white p-2 rounded-lg bg-blue-500 w-full text-xl  "
           >
-            Generate
+            生成
           </button>
         </form>
       </section>
