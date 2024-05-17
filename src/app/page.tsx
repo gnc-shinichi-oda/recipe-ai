@@ -52,7 +52,7 @@ export default function Home() {
             type="submit"
             className="  text-white p-2 rounded-lg bg-blue-500   w-1/2 text-xl  "
           >
-            レシピ生成
+            Generate
           </button>
         </form>
       </section>
