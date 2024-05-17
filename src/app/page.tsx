@@ -28,11 +28,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  p-24  m-auto ">
       <div className=" pb-10 mx-auto text-center flex flex-col items-start -center max-w-3xl">
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
-          Meet Your Personal <span className=" text-blue-600"> Recipe AI </span>
+          あなたのための <span className=" text-blue-600"> レシピ生成AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-            Simply type few ingredients using the format ingredient1,
-            ingredient12,..etc and Recipe AI will generate an all-new recipe on
-            demand...
+          トマト, じゃがいも...などのフォーマットで材料を入力するだけで、レシピAIがオンデマンドでまったく新しいレシピを生成してくれます。
           </p>
         </h1>
       </div>
@@ -61,7 +59,7 @@ export default function Home() {
       {loading ? (
         <div className="flex flex-col items-center gap-4 w-1/2  mx-auto ">
           <h2 className="m-10 font-medium   text-xl   max-w-prose text-blue-600 ">
-            Wait for it...
+            生成中です。少々お待ちください...
           </h2>
 
         </div>
